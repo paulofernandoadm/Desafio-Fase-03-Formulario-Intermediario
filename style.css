@@ -8,10 +8,9 @@ body {
   background-color: #E5E5E5;
   font-family: 'Poppins', sans-serif;
   width: 750px;
-  margin: 0 auto; /* Alinha a box ao centro da página */
+  margin: 0 auto;
 }
 
-/* -------- Estudar mais sobre isso -------- */
 body::before {
   content: '';
   width: 100%;
@@ -60,10 +59,6 @@ form {
   gap: 30px;
 }
 
-/* fieldset {
-  gap: 30px;
-} */
-
 fieldset legend {
   font-family: 'Staatliches', cursive;
   font-size: 24px;
@@ -102,7 +97,7 @@ input {
 }
 
 .input-wrapper input {
-  padding-left: 14px;
+  padding: 0 14px;
 }
 
 .input-wrapper span {
@@ -166,7 +161,6 @@ button:hover {
 }
 
 /* 
-
 #FFFFFF
 #FAFAFC
 #E5E5E5
@@ -178,5 +172,4 @@ button:hover {
 
 font-family: 'Staatliches', cursive;
 font-family: 'Poppins', sans-serif;
-
  */
